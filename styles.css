@@ -1,2 +1,52 @@
+.container{
+            display: grid;
+            width: 600px;
+            border:5px solid rgb(4, 255, 4);
+            background-color: rgb(41, 0, 0);
 
-/* Your CSS Code here. */
+        }
+        .rw{
+            border: 5px solid rgb(255, 188, 188);
+            height:200px;
+        }
+        .col{
+            border: 2px dotted rgb(38, 38, 43);
+            height:200px;
+            width: 200px;
+            
+        }
+        .r1{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+        .r2{
+            display: grid;
+            grid-template-columns: 0.33fr 0.33fr;
+            justify-content:right;
+            
+        }
+        .r3{           
+            display: grid;
+            grid-template-columns: 0.33fr 0.33fr;
+            justify-content: center;
+        }
+        .c11{
+            background-color: teal;
+        }
+        .c12{
+            background-color: thistle;
+        }
+        .c21{
+            background-color: tomato;
+            margin-right: 100px;
+            
+        }
+        .c22{
+            background-color: turquoise;            
+        }
+        .c31{
+            background-color: violet;
+        }
+        .c32{
+            background-color: yellowgreen;
+        }
