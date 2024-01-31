@@ -15,20 +15,19 @@
             /* width: 200px; */
             
         }
-        .r1{
+        /* r1{
             display: grid;
             grid-template-columns: 1fr 2fr;
         }
-        .r2{
+        r2{
             display: grid;
-            grid-template-columns: 0.33fr 0.33fr;
-            justify-content: right;
+            grid-template-columns: 0.33fr 0.33fr;            
         }
-        .r3{           
+        r3{           
             display: grid;
             grid-template-columns: 0.33fr 0.33fr;
             justify-content: center;
-        }
+        } */
         .r1c1{
             background-color: teal;
         }
