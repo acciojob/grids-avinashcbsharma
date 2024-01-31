@@ -5,7 +5,7 @@
             background-color: rgb(41, 0, 0);
 
         }
-        .rw{
+        .row{
             border: 5px solid rgb(255, 188, 188);
             height:200px;
         }
@@ -29,21 +29,21 @@
             grid-template-columns: 0.33fr 0.33fr;
             justify-content: center;
         }
-        .c11{
+        .r1c1{
             background-color: teal;
         }
-        .c12{
+        .r1c2{
             background-color: thistle;
         }
-        .c21{
+        .r2c1{
             background-color: tomato;
         }
-        .c22{
+        .r2c2{
             background-color: turquoise;            
         }
-        .c31{
+        .r3c1{
             background-color: violet;
         }
-        .c32{
+        .r3c2{
             background-color: yellowgreen;
         }
